@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "L:\\WorkSpace\\Medium\\Pocs\\MinimalAPIs\\APIDemo.csproj": {}
+    "/Users/josafat/Documents/GitHub/MinimalAPIDemo/APIDemo.csproj": {}
   },
   "projects": {
-    "L:\\WorkSpace\\Medium\\Pocs\\MinimalAPIs\\APIDemo.csproj": {
+    "/Users/josafat/Documents/GitHub/MinimalAPIDemo/APIDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\WorkSpace\\Medium\\Pocs\\MinimalAPIs\\APIDemo.csproj",
+        "projectUniqueName": "/Users/josafat/Documents/GitHub/MinimalAPIDemo/APIDemo.csproj",
         "projectName": "APIDemo",
-        "projectPath": "L:\\WorkSpace\\Medium\\Pocs\\MinimalAPIs\\APIDemo.csproj",
-        "packagesPath": "C:\\Users\\Hammad\\.nuget\\packages\\",
-        "outputPath": "L:\\WorkSpace\\Medium\\Pocs\\MinimalAPIs\\obj\\",
+        "projectPath": "/Users/josafat/Documents/GitHub/MinimalAPIDemo/APIDemo.csproj",
+        "packagesPath": "/Users/josafat/.nuget/packages/",
+        "outputPath": "/Users/josafat/Documents/GitHub/MinimalAPIDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/josafat/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,31 +40,31 @@
           "dependencies": {
             "Azure.Extensions.AspNetCore.Configuration.Secrets": {
               "target": "Package",
-              "version": "[1.2.1, )"
+              "version": "[1.2.2, )"
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.5.0, )"
+              "version": "[1.7.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -75,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
